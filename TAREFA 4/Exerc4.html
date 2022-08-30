@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICIO 4</title>
+<style>
+
+    
+
+        .coluna {
+    display: flex;
+    flex-flow: column;
+}
+
+.linha {
+    display: flex;
+    flex-flow: row;
+    
+    
+}
+
+
+
+.flexbox {
+    text-align: center;
+    
+    display: flexbox;
+    background: purple;
+    padding: 50pt;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.flexbox2 {
+    text-align: center;
+    display: flexbox;
+    background: #00ffc8;
+    padding: 50pt;
+    margin: 10px;
+    flex-grow: 1;
+    
+}
+
+.flexbox3 {
+    text-align: center;
+    display: flexbox;
+    background: #ff8801;
+    padding: 50pt;
+    margin: 10px;
+    flex-grow: 1;
+}
+.flexbox4 {
+    text-align: center;
+    display: flexbox;
+    background: aqua;
+    padding: 50pt;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+</style>
+
+    <body>
+        <div class="linha">
+            <div class="linha">
+                <div class="coluna">
+                    <div class="flexbox4"></div>
+                    <div class="flexbox4"></div>
+                    <div style="flex-grow: 2" class="flexbox"></div>
+                </div>
+            </div>
+
+            <div class="flexbox3"></div>
+
+            <div class="coluna">
+                <div class="linha">
+                    <div class="flexbox3"></div>
+                    <div class="flexbox"></div>
+                </div>
+
+                <div class="linha">
+                    <div class="flexbox4"></div>
+                    <div style="flex-grow: 4" class="flexbox2"></div>
+                </div>
+
+                <div class="linha">
+                    <div class="coluna">
+                        <div class="linha">
+                            <div style="flex-grow: 3" class="flexbox3"></div>
+                            <div class="flexbox"></div>
+                        </div>
+
+                        <div class="linha">
+                            <div class="flexbox4"></div>
+                            <div class="flexbox2"></div>
+                        </div>
+                    </div>
+
+                    <div class="flexbox2 width-50"></div>
+
+                    <div class="coluna">
+                        <div class="flexbox3 width-50"></div>
+                        <div class="flexbox width-50"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 
